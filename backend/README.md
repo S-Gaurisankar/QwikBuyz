@@ -104,6 +104,8 @@ GET     https://qwikbuyz.onrender.com/api/products/:id   - Fetch a product by it
 
 GET     https://qwikbuyz.onrender.com/api/products/query?- Fetch a product using the properties.
 
+Eg: https://qwikbuyz.onrender.com/api/products/query?product_id=1
+
 POST    https://qwikbuyz.onrender.com/api/products       - Add a new product.
 
 PUT     https://qwikbuyz.onrender.com/api/products/:id   - Update a product by its ID.

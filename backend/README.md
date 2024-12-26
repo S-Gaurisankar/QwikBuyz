@@ -93,4 +93,19 @@ DELETE	/api/products/:id	- Delete a product by its ID.
 ## Log route:
 GET /api/logs - Downloads the log file
 
+## Deployment Details:
+The backend of this project is deployed on Render. The deployed API endpoints can be accessed via the below.
 
+GET     https://qwikbuyz.onrender.com/api/products        - Fetch all products.
+
+GET     https://qwikbuyz.onrender.com/api/products/query - Fetch products by query params.
+
+GET     https://qwikbuyz.onrender.com/api/products/:id   - Fetch a product by its ID.
+
+GET     https://qwikbuyz.onrender.com/api/products/query?- Fetch a product using the properties.
+
+POST    https://qwikbuyz.onrender.com/api/products       - Add a new product.
+
+PUT     https://qwikbuyz.onrender.com/api/products/:id   - Update a product by its ID.
+
+DELETE  https://qwikbuyz.onrender.com/api/products/:id   - Delete a product by its ID.

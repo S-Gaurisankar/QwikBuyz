@@ -4,11 +4,13 @@ const routeController = require("./controllers/routeController"); //handles rout
 const logs = require("./routes/logs"); // API request logging
 const app = express();
 const fs = require("fs");
+const cors = require("cors");
 const path = require("path");
 const PORT = 8080;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(cors());
 
 mongoose
   .connect(

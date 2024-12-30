@@ -58,7 +58,7 @@ Ensure you have the following installed:
   ```
 3. Run the server
   ```bash
-  npm run dev
+  npm start
   ```
 
 ## Directory Structure

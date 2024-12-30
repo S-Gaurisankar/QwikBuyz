@@ -11,6 +11,8 @@ The backend provides a RESTful API for managing products and includes features s
   - Fetch a single product by ID.
   - Query products using filters.
   - Add, update, and delete products.
+  - Retrieve all orders.
+  - Add an order.
 - **Database Integration**:
   - MongoDB with Mongoose for schema validation and interaction.
 - **Logging**:

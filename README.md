@@ -73,4 +73,4 @@ Backend: https://github.com/S-Gaurisankar/QwikBuyz/tree/main/backend#readme
 
 4) OAuth for admin login
 
-5) Improved UI
+5) Improved UI, Vector/Semantic search

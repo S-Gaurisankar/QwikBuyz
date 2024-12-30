@@ -31,7 +31,6 @@ The backend provides a RESTful API for managing products and includes features s
 - **Express.js**: Framework for building APIs.
 - **MongoDB**: NoSQL database.
 - **Mongoose**: ODM (Object Data Modeling) library for MongoDB.
-- **dotenv**: For environment variable management.
 - **Thunder Client**: For API testing.
 
 ---

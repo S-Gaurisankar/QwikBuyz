@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Backend for QwikBuyz E-Commerce Application
+This directory has the frontend implementation of QwikBuyz. 
 
-## Getting Started
+Webpage link: https://qwik-buyz.vercel.app/
 
-First, run the development server:
+## Key features:
+1) Dynamic Product Display
+2) Search Functionality
+3) Order Management
+4) Admin Page
 
+## Installation
+1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/S-Gaurisankar/QwikBuyz.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the directory
+```bash
+cd frontend
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Install dependencies
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Build the application
+```bash
+npm run build
+```
 
-## Learn More
+5. Run the production build
+```
+npm start 
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Routes:
+All Products/Homepage - https://qwik-buyz.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Search Products by category or name - https://qwik-buyz.vercel.app/search
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Placing orders: https://qwik-buyz.vercel.app/cart
 
-## Deploy on Vercel
+About Us: https://qwik-buyz.vercel.app/about
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Admin Page: https://qwik-buyz.vercel.app/admin
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Admin can access order info and download api logs.

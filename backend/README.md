@@ -66,7 +66,7 @@ Ensure you have the following installed:
 backend/
   ├── models/    # Mongoose schemas
   ├── routes/    # API routes
-  ├── controllers/   
+  ├── controllers/  # Controllers
   ├── index.js    # Main entry point
   ├── package.json  
   ├── .gitignore    
@@ -90,6 +90,10 @@ PUT	/api/products/:id - 	Update a product by its ID.
 
 DELETE	/api/products/:id	- Delete a product by its ID.
 
+## Order Routes  
+GET	/api/orders	 - Fetch all orders.
+POST /api/orders - Add order
+
 ## Log route:
 GET /api/logs - Downloads the log file
 
@@ -111,3 +115,8 @@ POST    https://qwikbuyz.onrender.com/api/products       - Add a new product.
 PUT     https://qwikbuyz.onrender.com/api/products/:id   - Update a product by its ID.
 
 DELETE  https://qwikbuyz.onrender.com/api/products/:id   - Delete a product by its ID.
+
+
+GET     https://qwikbuyz.onrender.com/api/orders - Fetch all the orders
+
+POST    https://qwikbuyz.onrender.com/api/orders  - Add a new order

@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const routeController = require("./controllers/routeController"); //handles routes
+const routeController = require("./controllers/routeController"); //handles product routes
+const orderController = require("./controllers/orderController"); //handles order routes
 const logs = require("./routes/logs"); // API request logging
 const app = express();
 const fs = require("fs");
@@ -38,6 +39,8 @@ mongoose
   });
   
   app.use("/api/products", routeController);
+
+  app.use("/api/orders", orderController);
   
   app.get("/", (req, res) => {
     try {

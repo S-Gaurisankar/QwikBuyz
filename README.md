@@ -72,3 +72,5 @@ Backend: https://github.com/S-Gaurisankar/QwikBuyz/tree/main/backend#readme
 3) Cross-page functionality for adding to cart
 
 4) OAuth for admin login
+
+5) Improved UI

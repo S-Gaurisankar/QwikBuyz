@@ -11,7 +11,8 @@ const queryProduct = async (req, res) => {
   
     try {
       console.log("Querying Database with:", userQuery);
-      const searchedProduct = await Product.find(userQuery);
+      const searchedProduct = await Product.find(userQuery)
+      .select('title description product_id category price discount images thumbnail');
   
       if (!searchedProduct || searchedProduct.length === 0) {
         console.log("No products found for query:", userQuery);

@@ -3,7 +3,8 @@ const Product = require('../models/schemaModel');
 const getProduct =  async (req, res) => {
     try {
       const { id } = req.params;
-      const searchedProduct = await Product.findById(id);
+      const searchedProduct = await Product.findById(id)
+      .select('title description product_id category price discount images thumbnail');
       console.log("Fetching Product..");
   
       if (!searchedProduct) {

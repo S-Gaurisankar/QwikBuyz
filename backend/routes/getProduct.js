@@ -5,11 +5,11 @@ const getProduct =  async (req, res) => {
       const { id } = req.params;
       const searchedProduct = await Product.findById(id)
       .select('title description product_id category price discount images thumbnail');
-      console.log("Fetching Product..");
-  
+      
       if (!searchedProduct) {
         return res.status(404).json({ message: "Product not found" });
       }
+      console.log("Fetched Product");
   
       res.status(200).json(searchedProduct);
     } catch (error) {

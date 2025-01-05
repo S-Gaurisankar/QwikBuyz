@@ -4,7 +4,6 @@ const Product = require('../models/schemaModel');
 const getProducts = async (req, res) => {
     try {
       const allProducts = await Product.find({}).select('title description product_id category price discount images thumbnail');
-      console.log(allProducts);
       res.status(200).json(allProducts);
       console.log("Fetched all the products");
     } catch (error) {
